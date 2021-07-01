@@ -1,0 +1,72 @@
+.text-left{
+  text-align: left;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-input{
+      outline: none;
+    background: #242426;
+    border: none;
+    padding: 8px 0;
+    text-indent: 8px;
+    text-transform: capitalize;
+    width: 35%;
+    color: #fff;
+}
+
+form .btn,
+.update .btn,
+.update-cansel .btn{
+  border-radius: 0;
+    padding: 8px 20px;
+    border: none;
+    text-transform: capitalize;
+}
+
+::placeholder{
+  color: #6E36DA 
+}
+
+.task-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #292929;
+    width: 60%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.task h2{
+  text-transform: capitalize;
+}
+
+.update{
+display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-width{
+  width: 100%;
+}
+
+.form-update{
+  width: 40%;
+}
+
+.btn:not(.btn-success){
+  width: 90px;
+}
