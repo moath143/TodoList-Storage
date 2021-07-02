@@ -24,6 +24,10 @@ const dataReducer = (state = iniData, action) => {
                 return item;
             })
         };
+        case 'CLEAR_ALL': return {
+            ...state,
+            tasks: []
+        }
         default: {
             return state
         }
